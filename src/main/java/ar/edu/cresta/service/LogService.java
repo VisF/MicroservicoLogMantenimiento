@@ -1,10 +1,11 @@
-package ar.edu.cresta.service;
+package main.java.ar.edu.cresta.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import ar.edu.cresta.model.Log;
-import ar.edu.cresta.repository.LogRepositoryInterface;
+import main.java.ar.edu.cresta.model.Log;
+import main.java.ar.edu.cresta.repository.LogRepositoryInterface;
+
 
 @Service
 public class LogService {
