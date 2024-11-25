@@ -1,15 +1,14 @@
-package main.java.ar.edu.cresta.model;
+package ar.edu.cresta.model;
 
-import java.time.LocalDateTime;
-
+import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import lombok.Data;
+import java.time.LocalDateTime;
 
 @Data
 @Document(value="Log")
-public class Log {
+public class 	Log {
 	@Id
 	private String id;
 	private Integer idMonopatin;

@@ -1,4 +1,4 @@
-package main.java.ar.edu.cresta;
+package ar.edu.cresta;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
